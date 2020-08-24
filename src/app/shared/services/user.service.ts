@@ -8,8 +8,6 @@ export class UserService {
 
   public users : BehaviorSubject<string[]> = new BehaviorSubject<string[]>(['Mounir']);
 
-  //public user: BehaviorSubject<string> = new BehaviorSubject(this.users.value[0]);
-
   constructor() { }
 
   addUser(user : string) : void {
